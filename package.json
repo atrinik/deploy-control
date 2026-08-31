@@ -1,0 +1,24 @@
+{
+  "name": "atrinik-deploy-control",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "npm run typecheck && npm test && npm run deploy:dry-run",
+    "dev": "wrangler dev",
+    "deploy:dry-run": "wrangler deploy --dry-run --outdir dist",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": "24.18.1",
+    "npm": "11.16.0"
+  },
+  "packageManager": "npm@11.16.0",
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.10",
+    "wrangler": "4.123.0"
+  }
+}

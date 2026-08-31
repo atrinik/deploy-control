@@ -1,0 +1,17 @@
+dist/
+build/
+coverage/
+node_modules/
+.wrangler/
+__pycache__/
+*.py[cod]
+*.log
+worker-configuration.d.ts
+agent/bin/
+*:Zone.Identifier
+.dev.vars
+.dev.vars.*
+.env
+.env.*
+*.pem
+*.key
