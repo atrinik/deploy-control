@@ -44,3 +44,10 @@ approval, retry, rollback, and offline-agent behavior covered by deterministic
 tests. Do not enable a live target or add an official-server target merely by
 merging a code change; those are separate operator-approved provisioning and
 authorization steps.
+
+Dependency review is advisory. Before merge, the Codex implementer reads the
+latest current-HEAD job summary even when a PR comment exists, fixes actionable
+introduced dependency risk, or records explicit maintainer acceptance of existing
+risk. Coverage requires the workflow to exist on the relevant PR/merge revision.
+License metadata does not certify compatibility; existing repository license
+policies still apply.
