@@ -16,9 +16,9 @@
   },
   "packageManager": "npm@11.16.0",
   "devDependencies": {
-    "@types/node": "^26.6.5",
+    "@types/node": "^26.6.6",
     "typescript": "^7.0.2",
-    "vitest": "^5.0.5",
-    "wrangler": "^4.155.0"
+    "vitest": "^5.1.0",
+    "wrangler": "^4.158.0"
   }
 }
